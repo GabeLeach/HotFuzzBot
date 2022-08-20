@@ -1,0 +1,26 @@
+{"intents": [
+    {"tag": "greetings",
+     "patterns": ["hello", "hi", "good day", "greetings", "how is it going", "what's up", "hey"],
+     "responses": ["Hello, how may I help you", "Hello", "Hi"]
+     },
+    {"tag": "goodbye",
+     "patterns": ["Goodbye", "bye", "I am leaving", "See ya", "cya later", "later", "see thee"],
+     "responses": ["Goodbye", "Cya", "Goodbye, Have a nice day."]
+     },
+    {"tag": "name",
+     "patterns": ["What is your name", "what should I call you", "what are you called", "who are you"],
+     "responses": ["I'm your Hot Fuzz Bot", "Hot Fuzz Bot is the name, Quizzin' is the game", "Hello, I'm your Hot Fuzz Bot"]
+     },
+    {"tag": "bot use",
+     "patterns": ["What are you", "what do you do", "how can you help me", "help me", "can you tell me what you do"],
+     "responses": ["Hello, I'm a design assistant I can help you", "I can ensure you get the design answers you need"]
+     },
+     {"tag": "help",
+     "patterns": ["Help me", "How can you help me", "I need help"],
+     "responses": ["Hello, please specify how may I assist you", "I offer answers to a range of questions, ask away!"]
+     },  
+     {"tag": "joke",
+     "patterns": ["Tell me a joke", "make me laugh", "tell me something funny"],
+     "responses": ["Why did the chicken cross the road?.. \nTo get to the other side!", "What's the best thing about Switzerland?.. \nI don't know, but the flag is a big plus!"]
+     }
+]}
